@@ -10,7 +10,7 @@
 sudo apt install vim
 ```
 
-### 换源
+### 换源 (此处为 19.04，其他版本注意替换变量)
 
 ```
 cd /etc/apt
@@ -99,10 +99,13 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/m
 conda config --set show_channel_urls yes
 ```
 
-### tensorflow
+### tensorflow, opencv
 
 ```
 conda install tensorflow-gpu=1.12.0
+
+conda config --add channels conda-forge
+conda install opencv
 ```
 
 ### 输入法
