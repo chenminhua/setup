@@ -90,6 +90,11 @@ nvidia-settings #显示你的显卡信息
 
 ### ngrok
 
+```
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+./ngrok authtoken <token>
+```
+
 ### anaconda
 
 ```
