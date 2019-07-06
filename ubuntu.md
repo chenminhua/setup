@@ -115,6 +115,7 @@ conda install opencv
 
 ### 输入法
 
+
 ### 其他软件
 
 terminator， vscode
