@@ -104,6 +104,13 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/m
 conda config --set show_channel_urls yes
 ```
 
+```
+# pip最好也换个源， 直接创建并编辑 ~/.pip/pip.conf，配置如下
+
+[global]
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
 ### tensorflow, opencv
 
 ```
