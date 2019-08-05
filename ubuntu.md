@@ -111,6 +111,19 @@ conda config --set show_channel_urls yes
 index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
+### ruby(gem)
+
+```
+sudo apt install ruby-full
+```
+
+### git 相关
+
+```
+sudo gem install git-up
+sudo apt install tig
+```
+
 ### tensorflow, opencv
 
 ```
