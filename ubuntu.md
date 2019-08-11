@@ -150,3 +150,16 @@ sudo add-apt-repository ppa:nixnote/nixnote2-daily
 sudo apt update
 sudo apt install nixnote2
 ```
+
+### ssh
+```
+sudo apt-get install openssh-server   # 安装 ssh-server
+dpkg -l | grep ssh                    # 检查是否安装成功
+sudo service ssh start                # 启动sshd
+```
+
+### openvpn
+```
+apt-get install openvpn
+sudo openvpn --config /path/to/config.ovpn
+```
