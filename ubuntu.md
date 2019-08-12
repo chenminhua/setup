@@ -163,3 +163,16 @@ sudo service ssh start                # 启动sshd
 apt-get install openvpn
 sudo openvpn --config /path/to/config.ovpn
 ```
+
+###  java stuff
+```
+sudo apt-get install openjdk-8-jdk
+```
+
+### docker
+```
+sudo apt-get update
+sudo apt-get install \\n    apt-transport-https \\n    ca-certificates \\n    curl \\n    gnupg-agent \\n    software-properties-common
+sudo add-apt-repository \\n   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \\n   $(lsb_release -cs) \\n   stable"
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
