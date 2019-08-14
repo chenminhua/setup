@@ -169,6 +169,18 @@ sudo openvpn --config /path/to/config.ovpn
 sudo apt-get install openjdk-8-jdk
 ```
 
+### golang env
+```
+wget https://dl.google.com/go/go1.12.7.linux-amd64.tar.gz
+sudo tar -xvf go1.12.7.linux-amd64.tar.gz
+sudo mv go /usr/local
+
+vi ~/.zshrc
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/mygo
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+```
+
 ### docker
 ```
 sudo apt-get update
