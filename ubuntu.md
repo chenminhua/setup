@@ -196,3 +196,10 @@ sudo apt install i3
 安装完成后，logout，然后在登录页面的password下方的设置中选择使用i3
 安装完后如果遇到sogou输入法不工作的问题，可以删除 ~/.config/SogouPY，并重启
 ```
+
+### chrome
+
+```
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+```
