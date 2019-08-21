@@ -10,3 +10,14 @@ mode + shift +3  将当前 window 移动到 workspace 3
 
 mode + d         launcher
 ```
+
+### 软件
+
+```
+设置中心
+alias setting="env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
+setting
+
+文件管理器
+nautilus
+```
