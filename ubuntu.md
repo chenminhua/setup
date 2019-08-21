@@ -202,6 +202,10 @@ sudo apt install i3
 ```
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+下载 SwitcyOmega crx 插件
+wget https://github.com/FelisCatus/SwitchyOmega/releases/download/v2.5.11/SwitchyOmega_Chromium.crx
+把下载的文件拖动到 chrome://extensions/ 中 （注意打开到developer mode，不然可能装不上。如果出现 invalid header 的情况，可以考虑下个旧版本）
 ```
 
 ### proxy
