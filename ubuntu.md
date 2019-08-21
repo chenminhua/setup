@@ -188,3 +188,11 @@ sudo apt-get install \\n    apt-transport-https \\n    ca-certificates \\n    cu
 sudo add-apt-repository \\n   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \\n   $(lsb_release -cs) \\n   stable"
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
+
+### i3wm
+
+```
+sudo apt install i3
+安装完成后，logout，然后在登录页面的password下方的设置中选择使用i3
+安装完后如果遇到sogou输入法不工作的问题，可以删除 ~/.config/SogouPY，并重启
+```
