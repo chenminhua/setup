@@ -203,3 +203,9 @@ sudo apt install i3
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```
+
+### proxy
+```
+alias proxy-on='export http_proxy=127.0.0.1:1080;export https_proxy=$http_proxy'
+alias proxy-off='unset http_proxy;unset https_proxy'
+```
