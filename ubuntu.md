@@ -213,3 +213,10 @@ wget https://github.com/FelisCatus/SwitchyOmega/releases/download/v2.5.11/Switch
 alias proxy-on='export http_proxy=127.0.0.1:1080;export https_proxy=$http_proxy'
 alias proxy-off='unset http_proxy;unset https_proxy'
 ```
+
+### VIM
+```
+git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
+```
+
