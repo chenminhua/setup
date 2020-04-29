@@ -1,0 +1,6 @@
+dotnet
+nuget
+choco
+
+
+choco install vim
