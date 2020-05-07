@@ -1,0 +1,5 @@
+- clashx
+- chrome
+- sogou pinyin
+- vscode, jetbrain toolbox, xcode
+- wechat, teams, outlook
