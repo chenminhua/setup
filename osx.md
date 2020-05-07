@@ -7,5 +7,6 @@
 - vscode: brew cask install visual-studio-code
 - 印象笔记
 - reeder
+- magnet
 - jetbrain toolbox, xcode
 - wechat, teams, outlook
