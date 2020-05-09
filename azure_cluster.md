@@ -27,6 +27,6 @@ az network nic create -g ata-op --vnet-name opvnet -n ata-op3-nic --subnet opsub
 
 最后创建三台虚拟机，使用centos,绑定前面配好的网卡，设置好用户，并提供公钥（用于ssh登录）
 az vm create -g ata-op -n ata-op1 --image CentOS --nics ata-op1-nic --admin-username azure --ssh-key-value ~/.ssh/ata.pub
-az vm create -g ata-op -n ata-op2 --image CentOS —-nics ata-op2-nic --admin-username azure --ssh-key-value ~/.ssh/ata.pub
-az vm create -g ata-op -n ata-op3 --image CentOS —-nics ata-op3-nic --admin-username azure --ssh-key-value ~/.ssh/ata.pub
+az vm create -g ata-op -n ata-op2 --image CentOS --nics ata-op2-nic --admin-username azure --ssh-key-value ~/.ssh/ata.pub
+az vm create -g ata-op -n ata-op3 --image CentOS --nics ata-op3-nic --admin-username azure --ssh-key-value ~/.ssh/ata.pub
 ```
