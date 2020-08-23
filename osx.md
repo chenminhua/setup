@@ -10,3 +10,6 @@
 - magnet
 - jetbrain toolbox, xcode
 - wechat, teams, outlook
+
+
+sudo spctl --master-disable
