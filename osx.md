@@ -13,3 +13,5 @@
 
 
 sudo spctl --master-disable
+
+mac上没有ip命令：  brew install iproute2mac
