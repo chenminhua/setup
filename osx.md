@@ -9,7 +9,16 @@
 - reeder
 - magnet
 - jetbrain toolbox, xcode
-- wechat, teams, outlook
+- wechat
+- virtual-box
+- minikube, kubectl, podman, docker
+- karabiner
+- shottr
+- proxyman, charles
+- caffeine
+- eul
+- perculia
+- anaconda?
 
 
 sudo spctl --master-disable
